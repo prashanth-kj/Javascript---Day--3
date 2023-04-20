@@ -28,7 +28,8 @@
                          }
         },  
       
-   Academic_Projects : "Analysis and Treatment of effluent from Granite industry– Proposing solution to find a treatment of waste water and removal efficiency of suspended solids by using natural coagulants in some stone cutting industries.",
+   Academic_Projects : "Analysis and Treatment of effluent from Granite industry– Proposing solution to find a treatment of waste water and removal 
+                         efficiency of suspended solids by using natural coagulants in some stone cutting industries.",
         
         
    personal_Information:{
