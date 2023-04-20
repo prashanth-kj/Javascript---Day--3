@@ -1,0 +1,46 @@
+  let resume = {
+
+         Name:"prashanth k j",
+        Email:"kjprasanth98@gmail.com",
+       Mobile:"8940213051",
+      address:{
+              no:"7/207",
+              street:"amman sannthi street",
+              town:"Paramakudi",
+              district:"Ramnad"
+              },
+             
+     Academic_Details:{
+
+                   SSLC:{
+                          Academic_year:"2012 - 2013", 
+                             Percentage:"89"
+                        },
+                                    
+                    SSC:{  
+                          Academic_year:"2012 - 2013",
+                             Percentage: "82"
+                        }, 
+                                
+                college:{
+                          Academic_year:"2012 - 2013", 
+                                   CGPA: "7"
+                         }
+        },  
+      
+   Academic_Projects : "Analysis and Treatment of effluent from Granite industry– Proposing solution to find a treatment of waste water and removal efficiency of suspended solids by using natural coagulants in some stone cutting industries.",
+        
+        
+   personal_Information:{
+               
+                                      DOB:"July-17-1998",
+                         ["Fathers_Name"]: "K.R.Jeyakumar",
+                                      Sex: "Male",
+                              Nationality: "Indian",
+                           Marital_Status: "single",
+                            Mobile_Number: "8940213051",
+                          Languages_Known: "English,Tamil,Sourashtra"
+      },          
+             
+    }
+console.log(resume);

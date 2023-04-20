@@ -1,0 +1,70 @@
+1.For the given JSON iterate over all for loops(for, for in ,for of and forEach)
+--------------------------------------------------------------------------------
+
+
+let person =[{
+       Name:"prasanth",
+       email:"prasanth@gmail.com",
+       age: 24,
+       Gender:"Male",
+       Degree:"BE-CIVIL",
+       mobile:"8940213050"
+},
+      {
+       Name:"barath",
+       email:"barath@gmail.com",
+       age: 24,
+       Gender:"Male",
+       Degree:"BE-CIVIL",
+       mobile:"8940213051"
+},
+  {
+       Name:"suthar",
+       email:"suthar@gmail.com",
+       age: 24,
+       Gender:"Male",
+       Degree:"BSC",
+       mobile:"8940213052"
+},
+     {
+       Name:"harish",
+       email:"harish@gmail.com",
+       age: 24,
+       Gender:"Male",
+       Degree:"BE-Mech",
+       mobile:"8940213053"
+},
+]
+
+// jSON  for loop:
+------------------
+   
+    for(let i=0;i<person.length;i++)
+    {
+     console.log(person[i]);
+    } 
+
+// jSON for in loop:
+--------------------
+    for(let i in person)
+    {
+      console.log(person[i]);
+    }
+  
+// jSON for  of loop: 
+---------------------
+    for(let e of person)
+    {
+      console.log(e);
+    }
+	
+// jSON forEach loop:
+---------------------
+    person.forEach(function (e)
+    {
+      console.log(e);
+    })
+ 
+ -------------------------------------------------------------------------------------------------
+  
+  
